@@ -1,0 +1,23 @@
+/* basic reset */
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+  line-height: 0;
+  margin: 0;
+}
+body > .mount {
+  display: contents;
+}
+body > .mount > * {
+  line-height: 1;
+}
+
+img {
+  line-height: 0;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
